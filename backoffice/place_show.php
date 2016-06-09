@@ -69,7 +69,7 @@
                     <span ng-hide="editMode">{{data.district_name}}</span>
                     <select
                         ng-show="editMode"
-                        ng-model="formData.district_id"
+                        ng-model="data.district_id"
                         ng-options="obj.id as obj.name for obj in districts"></select>
                 </td>
                 <td>
